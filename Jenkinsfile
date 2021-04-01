@@ -4,7 +4,7 @@ node {
    def tomcatBin = 'C:\\apache-tomcat\\bin'
   
   stage('SCM CheckOut') {
-    git 'https://github.com/ManuelKumar/timezome.git'
+    git 'https://github.com/ManuelKumar/newtimezone.git'
   }
   
   stage('Build Stage') {
